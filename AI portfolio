@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Business Solutions Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .hero {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            margin-bottom: 3rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .project-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        .contact {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #e74c3c, #f39c12);
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Business Solutions Portfolio</h1>
+        </div>
+
+        <div class="hero">
+            <h2>Custom AI Automation Systems</h2>
+            <p>Helping business professionals save 15+ hours per week through intelligent automation</p>
+            <a href="#contact" class="cta-button">Get Your FREE Consultation</a>
+        </div>
+
+        <div class="projects">
+            <div class="project-card">
+                <h3>Client Pipeline System</h3>
+                <p>Color-coded client tracking that eliminates chaos and ensures nothing falls through the cracks.</p>
+            </div>
+            
+            <div class="project-card">
+                <h3>Smart Scheduling System</h3>
+                <p>Exclusive time-blocking calendar that positions you as a premium professional.</p>
+            </div>
+            
+            <div class="project-card">
+                <h3>Email Automation</h3>
+                <p>Intelligent email assistant that handles responses during your protected time.</p>
+            </div>
+            
+            <div class="project-card">
+                <h3>Lead Capture Bot</h3>
+                <p>Never lose a lead again with instant missed call responses and booking options.</p>
+            </div>
+            
+            <div class="project-card">
+                <h3>Content Generator</h3>
+                <p>Professional copy creation in 30 seconds instead of 30 minutes of writing.</p>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Email: bighouseliving9@gmail.com</p>
+            <p>Phone: (971) 378-9691</p>
+            <p>LinkedIn: <a href="www.linkedin.com/in/alana-padilla-3a71a0374">Connect with me</a></p> 
+          <a href="mailto:bighouselivng9@gmail.com" class="cta-button">Contact Me</a>
+        </div>
+    </div>
+</body>
+</html>
